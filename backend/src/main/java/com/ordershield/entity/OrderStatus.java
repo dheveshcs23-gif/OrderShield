@@ -1,0 +1,11 @@
+package com.ordershield.entity;
+
+public enum OrderStatus {
+    PENDING_SECURITY_AUTHORIZATION,
+    AUTHORIZATION_APPROVED,
+    AUTHORIZATION_REJECTED,
+    PROCESSING,
+    DISPATCHED,
+    DELIVERED,
+    CANCELLED
+}
